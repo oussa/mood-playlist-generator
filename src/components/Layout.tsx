@@ -5,6 +5,7 @@ export const Layout: FC = (props) => {
     <html>
       <head>
         <title>Mood Playlist Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
       </head>

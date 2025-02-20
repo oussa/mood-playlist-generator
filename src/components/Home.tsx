@@ -49,9 +49,9 @@ export const Home: FC = () => {
         {/* Loading Spinner */}
         <div 
           id="loading" 
-          class="htmx-indicator flex justify-center items-center my-8"
+          class="htmx-indicator fixed inset-0 flex justify-center items-center bg-white/50 pointer-events-none"
         >
-          <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+          <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 pointer-events-auto"></div>
         </div>
 
         <div id="search-results" class="mt-4"></div>
