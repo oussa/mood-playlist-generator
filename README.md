@@ -1,8 +1,15 @@
-## 🪿 HONC
+## Mood Playlist Generator
 
-This is a project created with the `create-honc-app` template. 
+This fun project was built during a hackathon. It generates a playlist based on the mood you select.
 
-Learn more about the HONC stack on the [website](https://honc.dev) or the main [repo](https://github.com/fiberplane/create-honc-app).
+### Demo: https://mood-playlist-generator.oussa.workers.dev
+
+### Screenshot:
+[![Screenshot](./screenshot.png)](https://mood-playlist-generator.oussa.workers.dev)
+
+This project was created with the `create-honc-app` template.
+
+Learn more about the 🪿 HONC stack on the [website](https://honc.dev) or the main [repo](https://github.com/fiberplane/create-honc-app).
 
 ### Getting started
 [D1](https://developers.cloudflare.com/d1/) is Cloudflare's serverless SQL database. Running HONC with a D1 database involves two key steps: first, setting up the project locally, and second, deploying it in production. You can spin up your D1 database locally using Wrangler. If you're planning to deploy your application for production use, ensure that you have created a D1 instance in your Cloudflare account.

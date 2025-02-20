@@ -30,7 +30,9 @@ app.post("/api/search", async (c) => {
     const prompt = `create music search terms based on the selected mood "${mood}". Don't output anything other than the terms; no extra explanations or follow up questions. No more than 3 words for the complete output.`;
 
     const data = await c.env.AI.run(model, {
-      prompt
+      prompt,
+      max_tokens: 50,
+      temperature: 0.75,
     }) as { response: string };
 
     if (data.response) {
