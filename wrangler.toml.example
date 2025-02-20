@@ -4,8 +4,8 @@ compatibility_flags = [ "nodejs_compat" ]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "mood-playlist-generator"
-database_id = "5b147e85-bf92-4275-abbb-478a997d4740"
+database_name = "honc-d1-database"
+database_id = "local-honc-d1-database"
 migrations_dir = "drizzle/migrations"
 
 # [vars]
