@@ -8,8 +8,9 @@ database_name = "honc-d1-database"
 database_id = "local-honc-d1-database"
 migrations_dir = "drizzle/migrations"
 
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+SPOTIFY_CLIENT_ID = "your-spotify-client-id"
+SPOTIFY_CLIENT_SECRET = "your-spotify-client-secret"
 
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
